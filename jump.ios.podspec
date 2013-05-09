@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.author       = 'Nathan Ramsey' 
   s.summary      = 'This library provides a native iOS API to the Janrain user management platform.'
   s.source       = { :git => 'https://github.com/janrain/jump.ios.git', :tag => 'v3.0.7' }
-  s.source_files = 'Janrain/**/*.{h,m}' , 'Test/**/*.{h,m}'
+  s.source_files = 'Janrain/**/*.{h,m}' , 'Test/**/*'
   s.frameworks   = 'Security', 'QuartzCore'
   s.weak_framework = 'MessageUI'
   s.requires_arc = false
