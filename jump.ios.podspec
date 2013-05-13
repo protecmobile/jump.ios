@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.summary      = 'This library provides a native iOS API to the Janrain user management platform.'
   s.source       = { :git => 'https://github.com/janrain/jump.ios.git', :tag => 'v3.0.7' }
   s.source_files = 'Janrain/JREngage/**/*.{h,m}', 'Janrain/JRConnectionManager/**/*.{h,m}' , 'Janrain/Security/**/*.{h,m}'
-  s.resources    = 'Janrain/JREngage/Resources/**/*.{png,xib}'
+  s.resources    = 'Janrain/JREngage/Resources/**/*.*'
   s.frameworks   = 'Security', 'QuartzCore'
   s.weak_framework = 'MessageUI'
   s.requires_arc = false
